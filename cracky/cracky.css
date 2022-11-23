@@ -169,6 +169,17 @@ a.thumbnailmsg {
   font-size: 13px;
 }
 
+.comment {
+  color: #ffffff;
+  font-size: 13px;
+}
+
+.quote {
+  color: #8b9144;
+  font-style: italic;
+  font-size: 13px;
+}
+
 .comment_e {
   color: #ffffff;
   font-size: 13px;
