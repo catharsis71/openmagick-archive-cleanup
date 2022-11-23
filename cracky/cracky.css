@@ -57,14 +57,14 @@ a.thumbnailmsg {
 	padding-left:20px;
 }
 
-.filesize A:visited {
+.filesize a:visited {
 	font-size:12px;
 	font-family:sans-serif;
 	text-decoration:underline;
 	color: #f3399a;
 }
 
-.filesize A:link {
+.filesize a:link {
 	font-size:12px;
 	font-family:sans-serif;
 	text-decoration:underline;
