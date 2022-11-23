@@ -1,0 +1,404 @@
+body { color: #FFFFFF;
+	background-color: #3e3e3e; 
+
+}
+
+hr {
+border-color:#444444 -moz-use-text-color -moz-use-text-color;
+border-right:medium none;
+border-style:solid none none;
+border-width:1px medium medium;
+height:0;
+}
+
+li 
+{
+  font-size: 12px;
+}
+
+
+.navsup {
+  color: #cecece;
+  font-size: 12px;
+}
+.navsup A:visited {
+  color: #8be7ae;
+  font-size: 12px;
+}
+.navsup A:link {
+  color: #8be7ae;
+  font-size: 12px;
+}
+
+
+.thumbnailmsg {
+	font-size:9px;
+	font-family:sans-serif;
+	color:#000000;
+}
+
+a.thumbnailmsg {
+	font-size:9px;
+	font-family:sans-serif;
+	color:#f3399a;
+}
+
+
+
+.corchete {
+	font-size:12px;
+	font-family:sans-serif;
+}
+
+
+.filesize {
+	font-size:12px;
+	font-family:sans-serif;
+	padding-left:20px;
+}
+
+.filesize A:visited {
+	font-size:12px;
+	font-family:sans-serif;
+	text-decoration:underline;
+	color: #f3399a;
+}
+
+.filesize A:link {
+	font-size:12px;
+	font-family:sans-serif;
+	text-decoration:underline;
+	color: #f3399a;
+}
+
+
+.paginado {
+	font-size:12px;
+	font-family:sans-serif;
+}
+
+.paginado A:visited {
+	font-size:12px;
+	font-family:sans-serif;
+	text-decoration:underline;
+	color: #f3399a;
+}
+
+.paginado A:link {
+	font-size:12px;
+	font-family:sans-serif;
+	text-decoration:underline;
+	color: #f3399a;
+}
+
+
+
+.reply {
+	font-size:12px;
+	font-family:sans-serif;
+	color: #d3197a;
+}
+
+.reply A:visited {
+	font-size:12px;
+	font-family:sans-serif;
+	text-decoration:underline;
+	color: #d3197a;
+}
+
+.reply A:link {
+	font-size:12px;
+	font-family:sans-serif;
+	text-decoration:underline;
+	color: #d3197a;
+}
+
+
+
+
+
+.thumb {
+	border:medium none;
+	float:left;
+	margin:2px 20px 10px;
+}
+
+
+.subject {
+        font-size:12px;
+        font-family:serif;
+        color:#CC0105;
+        font-weight:800;
+}
+
+.subject_e {
+	padding-left: 20px;
+        font-size:12px;
+        font-family:serif;
+        color:#CC0105;
+        font-weight:800;
+}
+
+
+
+.commentpostername {
+        font-size:12px;
+        font-family:serif;
+        color:#3B975E;
+        font-weight:800;
+}
+
+
+.commentpostername_e {
+	padding-left: 20px;
+        font-size:12px;
+        font-family:serif;
+        color:#3B975E;
+        font-weight:800;
+}
+
+
+
+
+.fechamsg {
+ 	color:#8BE7AE;
+	font-size: 12px;
+}
+
+.numeromsg {
+	color: #F3399A;
+	font-size: 12px;
+}
+
+.numeromsg A:link {
+	color: #F3399A;
+	font-size: 12px;
+        text-decoration: none;
+}
+.numeromsg A:visited {
+	color: #F3399A;
+	font-size: 12px;
+        text-decoration: none;
+}
+
+.comment {
+	color: #FFFFFF;
+	font-size: 13px;
+}
+
+.comment_e {
+	color: #FFFFFF;
+	font-size: 13px;
+	padding-left: 20px;
+}
+
+.postblock{border:1px solid #444444;font-size:10pt;padding:0 5px;line-height:20px;}
+
+
+
+.titmenu { font-size: 15px; color: #ffffff }
+a.titmenu { }
+.titmenu_white { font-size: 15px; color: #ffffff }
+a.titmenu_white { }
+.bigmenu_white { font-size: 17px; color: #ffffff }
+a.bigmenu_white { }
+.titmenu_grey { font-size: 13px; color: #cecece }
+a.titmenu_grey { }
+.titmenu_yellow { font-size: 15px; color: #caf155 }
+a.titmenu_yellow { }
+.titmenu_black { font-size: 13px; font-weight: bold; color: #000000 }
+a.titmenu_black { }
+.titmenu_u { font-size: 14px; text-decoration: underline; color: #000000}
+a.titmenu_u { }
+.titmenu_u_grey { font-size: 12px; text-decoration: underline; color: #aeaeae}
+a.titmenu_u_grey { }
+.titmenu_u_darkgrey { font-size: 12px; text-decoration: underline; color: #6e6e6e}
+a.titmenu_u_darkgrey { }
+.titmenu_u_sub { font-size: 11px; text-decoration: underline; color: #444444}
+a.titmenu_u_sub { }
+.titmenu_u_sub_grey { font-size: 11px; text-decoration: underline; color: #6e6e6e}
+a.titmenu_u_sub_grey { }
+
+.titulo_seccion { font-size: 18px; font-weight: bold; text-decoration: none; color: #cecece; }
+.titulo_seccion_black { font-size: 18px; font-weight: bold; text-decoration: none; color: #000000; }
+
+.enlacenormal { font-size: 14px; color: #ffffff; }
+a.enlacenormal { }
+.enlacenosub { font-size: 14px; color: #ffffff; }
+a.enlacenosub { text-decoration: none; }
+
+.correcto { color: #7bD79e; font-size:13px; font-weight:bold;}
+.notificar { color: #990099; font-size:13px; font-weight:bold;}
+.correctosutil { color: #6bC78e; font-size:13px; font-weight:bold; }
+
+.error { color: #ff8888; font-size:13px; font-weight:bold; }
+.errorsutil { color: #ffBBBB; font-size:13px;  font-weight:bold;}
+a.errorsutil { color: #ffBBBB; font-size:13px; }
+
+.errormenu { color: #BB3333; font-size:13px;  font-weight:bold;}
+a.errormenu { color: #BB3333; font-size:13px; }
+
+
+.textoligero { font-size:13px; color: #8e8e8e }
+.textoligero_small { font-size:11px; color: #8e8e8e }
+
+.textonormal { font-size:13px; color: #cecece }
+a.textonormal { color: #3b975e; font-size:13px }
+.textonormal:visited { color: #3b975e; font-size:13px }
+
+.textonormallink { font-size:13px; color: #2b874e; font-weight: bold;}
+
+
+.textosutil { font-size:13px; color: #cecece; text-decoration: none }
+a.textosutil { color: #6bC78e; font-size:13px; text-decoration: none }
+.textosutil:visited { color: #6bC78e; font-size:13px; text-decoration: none }
+
+
+
+.textonormal_morado { font-size:13px; color: #330033 }
+
+.textonormal_negro { font-size:13px; color: #000000 }
+
+.textopeque { font-size:11px; color: #cecece }
+a.textopeque { color: #3b975e; font-size:11px }
+.textopeque:visited { color: #3b975e; font-size:11px }
+
+.textonormal_gris { font-size:13px; color: #aeaeae }
+.textopeque_gris { font-size:11px; color: #aeaeae }
+
+a.textonormal2 { color: #8efe8e; font-size:13px }
+
+
+.paginado { font-size: 10px;color: #cecece  }
+a.paginado { font-size: 10px;  }
+
+
+
+.piedepagina {
+	position: relative;
+	float: left;
+	clear: both;
+	width: 100%;
+}
+
+
+.contenedorprincipal {
+	position:absolute;
+	height:auto;
+	top:0;
+	left:0px;
+	width:100%;
+
+background:#3e3e3e url(img/fade.png) top center repeat-x;
+
+
+}
+
+
+
+
+.contenedorsecundario {
+	padding-left:10px;
+	padding-right:10px;
+        background:inherit;
+}
+
+
+
+.arriba {
+        position:relative;
+        background-color: #2d2d2d;  
+/*        background-color: #181818;  */
+}
+
+
+.arriba_2 {
+        position:relative;
+	top: 0px;
+	left: 0px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        background-color: #cecece;
+vertical-align: text-top;
+        color: #000000;
+}
+
+
+
+.contenedorcentral {
+        position: relative;
+        width: 1024px;
+        background-color: #2d2d2d;  
+/*        background-color: #181818; */
+        margin-left: auto;
+        margin-right: auto;
+}
+
+.izquierda {
+        position:relative; 
+        background-color: #2d2d2d;  
+/*        background-color: #181818; */
+        padding-left: 20px;
+        padding-right: 20px;
+        float:left;
+}
+
+
+.centro {
+        padding-top: 20px;
+        position:relative;
+        background-color: #2d2d2d;  
+/*        background-color: #181818;  */
+        float:left;
+	min-width: 750px;
+}
+
+.lineahorizontal{
+        position:relative;
+/*        background-color: #99d8b0; */
+        background-color: #ffffff; 
+        height: 1px;
+}
+
+
+.movida {
+        background-color: #c0c1a7;
+}
+
+.mensajeforo th { background-color: #888888; font-size: 13px; }
+.mensajeforo tr { background-color: #444444; font-size: 13px; }
+
+.rebordetabla th { background-color: #ffffff; font-size: 12px; }
+.rebordetabla tr { background-color: #999999; font-size: 11px; }
+
+
+.inputstandard { background-color: #cad3d3;
+		border: solid 1px #004400;
+}
+
+.inputstandard_inactivo { background-color: #9ab3a3;
+		border: solid 1px #004400;
+}
+
+
+.inputstandard_2 { background-color: #2d2d2d;
+		border: solid 1px #cae3d3;
+		color: #cae3d3;
+}
+
+
+
+.menu_admin { width:100%; background:#000000; float:left; margin-bottom:10px; font-weight: bold; color:#FFFFFF; }
+.menu_admin p { margin:0; margin-bottom:5px; }
+.ml10 { margin-left: 10px; }
+.menu_admin th { background-color: #000000; font-decoration: bold; color: #ffffff; font-size: 12px; }
+.menu_admin tr { background-color: #000000; font-decoration: bold; color: #ffffff; font-size: 11px; }
+
+.enlace10white { font-size: 11px; color: #ffffff }
+a.enlace10white { font-size: 11px; color: #ffffff }
+
+
+
+
+
+
