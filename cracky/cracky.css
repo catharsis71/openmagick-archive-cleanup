@@ -1,4 +1,4 @@
-body { color: #FFFFFF;
+body { color: #ffffff;
 	background-color: #3e3e3e; 
 
 }
@@ -21,11 +21,11 @@ li
   color: #cecece;
   font-size: 12px;
 }
-.navsup A:visited {
+.navsup a:visited {
   color: #8be7ae;
   font-size: 12px;
 }
-.navsup A:link {
+.navsup a:link {
   color: #8be7ae;
   font-size: 12px;
 }
@@ -77,14 +77,14 @@ a.thumbnailmsg {
 	font-family:sans-serif;
 }
 
-.paginado A:visited {
+.paginado a:visited {
 	font-size:12px;
 	font-family:sans-serif;
 	text-decoration:underline;
 	color: #f3399a;
 }
 
-.paginado A:link {
+.paginado a:link {
 	font-size:12px;
 	font-family:sans-serif;
 	text-decoration:underline;
@@ -99,14 +99,14 @@ a.thumbnailmsg {
 	color: #d3197a;
 }
 
-.reply A:visited {
+.reply a:visited {
 	font-size:12px;
 	font-family:sans-serif;
 	text-decoration:underline;
 	color: #d3197a;
 }
 
-.reply A:link {
+.reply a:link {
 	font-size:12px;
 	font-family:sans-serif;
 	text-decoration:underline;
@@ -127,7 +127,7 @@ a.thumbnailmsg {
 .subject {
         font-size:12px;
         font-family:serif;
-        color:#CC0105;
+        color:#cc0105;
         font-weight:800;
 }
 
@@ -135,7 +135,7 @@ a.thumbnailmsg {
 	padding-left: 20px;
         font-size:12px;
         font-family:serif;
-        color:#CC0105;
+        color:#cc0105;
         font-weight:800;
 }
 
@@ -144,7 +144,7 @@ a.thumbnailmsg {
 .commentpostername {
         font-size:12px;
         font-family:serif;
-        color:#3B975E;
+        color:#3b975e;
         font-weight:800;
 }
 
@@ -153,7 +153,7 @@ a.thumbnailmsg {
 	padding-left: 20px;
         font-size:12px;
         font-family:serif;
-        color:#3B975E;
+        color:#3b975e;
         font-weight:800;
 }
 
@@ -161,33 +161,33 @@ a.thumbnailmsg {
 
 
 .fechamsg {
- 	color:#8BE7AE;
+ 	color:#8be7ae;
 	font-size: 12px;
 }
 
 .numeromsg {
-	color: #F3399A;
+	color: #f3399a;
 	font-size: 12px;
 }
 
-.numeromsg A:link {
-	color: #F3399A;
+.numeromsg a:link {
+	color: #f3399a;
 	font-size: 12px;
         text-decoration: none;
 }
-.numeromsg A:visited {
-	color: #F3399A;
+.numeromsg a:visited {
+	color: #f3399a;
 	font-size: 12px;
         text-decoration: none;
 }
 
 .comment {
-	color: #FFFFFF;
+	color: #ffffff;
 	font-size: 13px;
 }
 
 .comment_e {
-	color: #FFFFFF;
+	color: #ffffff;
 	font-size: 13px;
 	padding-left: 20px;
 }
@@ -227,16 +227,16 @@ a.enlacenormal { }
 .enlacenosub { font-size: 14px; color: #ffffff; }
 a.enlacenosub { text-decoration: none; }
 
-.correcto { color: #7bD79e; font-size:13px; font-weight:bold;}
+.correcto { color: #7bd79e; font-size:13px; font-weight:bold;}
 .notificar { color: #990099; font-size:13px; font-weight:bold;}
-.correctosutil { color: #6bC78e; font-size:13px; font-weight:bold; }
+.correctosutil { color: #6bc78e; font-size:13px; font-weight:bold; }
 
 .error { color: #ff8888; font-size:13px; font-weight:bold; }
-.errorsutil { color: #ffBBBB; font-size:13px;  font-weight:bold;}
-a.errorsutil { color: #ffBBBB; font-size:13px; }
+.errorsutil { color: #ffbbbb; font-size:13px;  font-weight:bold;}
+a.errorsutil { color: #ffbbbb; font-size:13px; }
 
-.errormenu { color: #BB3333; font-size:13px;  font-weight:bold;}
-a.errormenu { color: #BB3333; font-size:13px; }
+.errormenu { color: #bb3333; font-size:13px;  font-weight:bold;}
+a.errormenu { color: #bb3333; font-size:13px; }
 
 
 .textoligero { font-size:13px; color: #8e8e8e }
@@ -250,8 +250,8 @@ a.textonormal { color: #3b975e; font-size:13px }
 
 
 .textosutil { font-size:13px; color: #cecece; text-decoration: none }
-a.textosutil { color: #6bC78e; font-size:13px; text-decoration: none }
-.textosutil:visited { color: #6bC78e; font-size:13px; text-decoration: none }
+a.textosutil { color: #6bc78e; font-size:13px; text-decoration: none }
+.textosutil:visited { color: #6bc78e; font-size:13px; text-decoration: none }
 
 
 
@@ -388,7 +388,7 @@ vertical-align: text-top;
 
 
 
-.menu_admin { width:100%; background:#000000; float:left; margin-bottom:10px; font-weight: bold; color:#FFFFFF; }
+.menu_admin { width:100%; background:#000000; float:left; margin-bottom:10px; font-weight: bold; color:#ffffff; }
 .menu_admin p { margin:0; margin-bottom:5px; }
 .ml10 { margin-left: 10px; }
 .menu_admin th { background-color: #000000; font-decoration: bold; color: #ffffff; font-size: 12px; }
