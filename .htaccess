@@ -4,3 +4,4 @@
 <Else>
  Header onsuccess set X-Robots-Tag "noindex,nofollow"
 </Else>
+RedirectMatch 307 "denunciar" "/archive/openmagick/no.txt"
