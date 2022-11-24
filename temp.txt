@@ -1,5 +1,3 @@
-index.html-catid=150.xhtml
-index.html-catid=151.xhtml
 index.html-catid=15_importancia=1.xhtml
 index.html-catid=17_importancia=1.xhtml
 index.html-catid=18_importancia=1.xhtml
