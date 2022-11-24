@@ -1,540 +1,583 @@
-body { 
-
-		color: #FFFFFF;
-
-        background-image: url('images/fondonew.jpg');
-        background-repeat: no-repeat;
-        background-color: #000000;
-        background-position: center;
-			background-attachment: fixed; 
-
-/* 
-	background-image: url('images/fondonew.jpg');
-*/	
+body {
+     color: #FFFFFF;
+     background-image: url('images/fondonew.jpg');
+     background-repeat: no-repeat;
+     background-color: #000000;
+     background-position: center;
+     background-attachment: fixed;
+    /* background-image: url('images/fondonew.jpg');
+     */
 }
-
-
-.contenedorprincipal {
-	position:absolute;
-	height:auto;
-	top:0;
-	left:0;
-	width:100%;
-	
-        
-        
-        
-
-/*        background-color: #181818; 
-background-color: #2d2d2d;  
-*/
+ .contenedorprincipal {
+     position: absolute;
+     height: auto;
+     top: 0;
+     left: 0;
+     width: 100%;
+    /* background-color: #181818;
+     background-color: #2d2d2d;
+     */
 }
-
-.titmenu { font-size: 15px; color: #ffffff }
-a.titmenu { }
-.titmenu_white { font-size: 15px; color: #ffffff }
-a.titmenu_white { }
-.bigmenu_white { font-size: 17px; color: #ffffff }
-a.bigmenu_white { }
-
-
-
-ul.ul_izquierda, ul.ul_izquierda ul {
-  width: 180px;                 /* sets the size of the menu blocks */
-  padding-left: 0px;           /* stops the usual indent from ul */
-  cursor: default;             /* gives an arrow cursor */
-  margin-left: 0px;            /* Opera 7 final's margin and margin-box model cause problems */
-  text-align: center;
-  
-  /*
-  padding: 2px;
-  border: 1px solid #000;     
-  */
+ .titmenu {
+     font-size: 15px;
+     color: #ffffff 
 }
-
-
-ul.ul_izquierda li {
-   list-style-type: none 
+ a.titmenu {
 }
-
-
-ul.ul_izquierda li a:link {
-	color: #99dd99;
-	text-decoration: none;
+ .titmenu_white {
+     font-size: 15px;
+     color: #ffffff 
 }
-ul.ul_izquierda li a:visited {
-	color: #99dd99;
-	text-decoration: none;
+ a.titmenu_white {
 }
-ul.ul_izquierda li a:active {
-	color: #99dd99;
-	text-decoration: none;
+ .bigmenu_white {
+     font-size: 17px;
+     color: #ffffff 
 }
-
-ul.ul_izquierda li a {
-
-  color: #ffbb55;
-
-  filter:alpha(opacity=80);
-  -moz-opacity:0.8;
-  -khtml-opacity: 0.8;
-  opacity: 0.8;
-
-  background-color: #000000;      /* makes the menu blocks mint green - a bg-color MUST be included for IE to work properly! */
-
-  line-height: 2em;
-  
-
-  display: block;
-  list-style-type: none;       /* removes the bullet points */
-  margin: 0px;                 /* Opera 7 puts large spacings between li elements */
-  position: relative;          /* makes the menu blocks be positioned relative to their parent menu item
-                                  the lack of offset makes these appear normal, but it will make a difference
-                                  to the absolutely positioned child blocks */
-  color: #fff;                 /* sets the default font colour to white */
-  height: 30px;
-  font-size: 13px;
-  font-weight: bold;
-  margin-left: auto;
-  margin-right: auto;
-
-
+ a.bigmenu_white {
 }
-
-ul.ul_izquierda li:hover {
-  color: #000000;                 /* makes the active menu item text black */ 
-   background-color: #000000; 
-
-
-        filter:alpha(opacity=6);
-        -moz-opacity:0.6;
-        -khtml-opacity: 0.6;
-        opacity: 0.6;
-
+ ul.ul_izquierda, ul.ul_izquierda ul {
+     width: 180px;
+    /* sets the size of the menu blocks */
+     padding-left: 0px;
+    /* stops the usual indent from ul */
+     cursor: default;
+    /* gives an arrow cursor */
+     margin-left: 0px;
+    /* Opera 7 final's margin and margin-box model cause problems */
+     text-align: center;
+    /* padding: 2px;
+     border: 1px solid #000;
+     */
 }
-
-ul.ul_izquierda li:hover a {
-	color: #ffffff;
+ ul.ul_izquierda li {
+     list-style-type: none 
 }
-
-
-
-
-ul.ul_izquierda #current a span {
-                padding-bottom:4px;
+ ul.ul_izquierda li a:link {
+     color: #99dd99;
+     text-decoration: none;
 }
-
-ul.ul_izquierda #current a span, ul.ul_izquierda #current a {
-
-                background-color:#000000;
-                color: #55ff55;
-        }
-
-
-/*
-#ul_izquierda li {
-	height: 30px;
-			line-height: 2em;
-	list-style-type: none;
-   width: 170px;
-   background-color: #000000;
-   
-   	       filter:alpha(opacity=80);
-	        -moz-opacity:0.8;
-	        -khtml-opacity: 0.8;
-	        opacity: 0.8;
-	  }
-*/
-	  
-/*
-#ul_izquierda a {
-		float:left;
-		background: #000000 url('../img/bordes.png') no-repeat left top;
-		padding-right: 9px;
-		padding-left: 9px;
-		text-decoration:none;
-		color: #664a2d;
-	}
-
-	*/  
-	  
-	  
-	  
-.menu_arriba { font-size: 14px; font-weight: bold; color: #000000 }
-a.menu_arriba { }
-a:hover.menu_arriba {
-  color: #111111;                 /* makes the active menu item text black */ 
-   background-color: #88cc88; 
-}	  
-	  
-.menu_arriba_desconectar { font-size: 14px; font-weight: bold; color: #dd3333 }
-a.menu_arriba_desconectar { }
-a:hover.menu_arriba_desconectar {
-  color: #ff1111;                 /* makes the active menu item text black */ 
-   background-color: #eeeeee; 
-}	  	  
-	  
-	  
-.transp_left {
-					background-color:#000000;
-	        filter:alpha(opacity=70);
-	        -moz-opacity:0.7;
-	        -khtml-opacity: 0.7;
-	        opacity: 0.7;
-	  }
-	  
-
-.titmenu_grey { font-size: 16px; color: #cecece }
-a.titmenu_grey {
-	/*
-		padding: 8px 8px 8px 8px;
-		width: 100px;
-		*/
-	} 
-a:hover.titmenu_grey { 
+ ul.ul_izquierda li a:visited {
+     color: #99dd99;
+     text-decoration: none;
 }
-
-
-.titmenu_orange { font-size: 16px; color: #d75b00 }
-a.titmenu_orange {
-        } 
-a:hover.titmenu_orange { 
+ ul.ul_izquierda li a:active {
+     color: #99dd99;
+     text-decoration: none;
 }
-
-
-
-
-.titmenu_yellow { font-size: 15px; color: #caf155 }
-a.titmenu_yellow { }
-.titmenu_black { font-size: 13px; font-weight: bold; color: #000000 }
-a.titmenu_black { }
-.titmenu_u { font-size: 14px; text-decoration: underline; color: #000000}
-a.titmenu_u { }
-.titmenu_u_grey { font-size: 15px; text-decoration: underline; color: #aeaeae}
-a.titmenu_u_grey { }
-.titmenu_darkgrey { font-size: 16px; text-decoration: underline; color: #7e7e7e;
-/*
-		padding: 8px 8px 8px 8px;
-		*/
-} a.titmenu_darkgrey { }
-a:hover.titmenu_darkgrey {
-	/* 
-			color: #dddddd;
-					padding: 8px 8px 8px 8px;
-						        filter:alpha(opacity=70);
-	        -moz-opacity:0.7;
-	        -khtml-opacity: 0.7;
-	        opacity: 0.7;
-	        */
+ ul.ul_izquierda li a {
+     color: #ffbb55;
+     opacity: 0.8;
+     background-color: #000000;
+    /* makes the menu blocks mint green - a bg-color MUST be included for IE to work properly! */
+     line-height: 2em;
+     display: block;
+     list-style-type: none;
+    /* removes the bullet points */
+     margin: 0px;
+    /* Opera 7 puts large spacings between li elements */
+     position: relative;
+    /* makes the menu blocks be positioned relative to their parent menu item the lack of offset makes these appear normal, but it will make a difference to the absolutely positioned child blocks */
+     color: #fff;
+    /* sets the default font colour to white */
+     height: 30px;
+     font-size: 13px;
+     font-weight: bold;
+     margin-left: auto;
+     margin-right: auto;
 }
-
-.titmenu_u_darkgrey { font-size: 12px; text-decoration: underline; color: #6e6e6e}
-a.titmenu_u_darkgrey { }
-.titmenu_u_sub { font-size: 11px; text-decoration: underline; color: #444444}
-a.titmenu_u_sub { }
-.titmenu_u_sub_grey { font-size: 11px; text-decoration: underline; color: #6e6e6e}
-a.titmenu_u_sub_grey { }
-
-.titulo_seccion { font-size: 18px; font-weight: bold; text-decoration: none; color: #cecece; }
-.titulo_seccion_black { font-size: 18px; font-weight: bold; text-decoration: none; color: #000000; }
-
-.enlacenormal { font-size: 14px; color: #ffffff; }
-a.enlacenormal { }
-.enlacenosub { font-size: 14px; color: #ffffff; }
-a.enlacenosub { text-decoration: none; }
-
-.correcto { color: #7bD79e; font-size:14px; font-weight:bold;}
-.notificar { color: #990099; font-size:14px; font-weight:bold;}
-.correctosutil { color: #6bC78e; font-size:14px; font-weight:bold; 
-
-		padding: 5px 5px 5px 5px;
-		margin-left: auto;
-		margin-right: auto;
-		background-color: #000000;
- 	        filter:alpha(opacity=70);
-	        -moz-opacity:0.7;
-	        -khtml-opacity: 0.7;
-	        opacity: 0.7;
-
-		}
-
-.error { color: #ff8888; font-size:14px; font-weight:bold; 
-
-		padding: 5px 5px 5px 5px;
-		margin-left: auto;
-		margin-right: auto;
-		background-color: #000000;
- 	        filter:alpha(opacity=80);
-	        -moz-opacity:0.8;
-	        -khtml-opacity: 0.8;
-	        opacity: 0.8;
-
-		}
-
-.errorsutil_old { color: #ffBBBB; font-size:14px;  font-weight:bold; }
-
-.errorsutil { color: #ffBBBB; font-size:14px;  font-weight:bold;
-		padding: 5px 5px 5px 5px;
-		margin-left: auto;
-		margin-right: auto;
-		background-color: #000000;
- 	        filter:alpha(opacity=70);
-	        -moz-opacity:0.7;
-	        -khtml-opacity: 0.7;
-	        opacity: 0.7;
-
-	}
-a.errorsutil { color: #ffBBBB; font-size:14px; }
-
-.errormenu { color: #BB3333; font-size:14px;  font-weight:bold;}
-a.errormenu { color: #BB3333; font-size:14px; }
-
-
-.textoligero { font-size:14px; color: #aeceae }
-.textoligero_small { font-size:11px; color: #aeceae }
-
-.textonormal { font-size:14px; color: #ffffff }
-a.textonormal { color: #ddf7ff; font-size:14px }
-.textonormal:visited { color: #9bf7ae; font-size:14px }
-
-.textonormallink { font-size:14px; color: #2b874e; font-weight: bold;}
-
-
-.textosutil { font-size:14px; color: #cecece; text-decoration: none }
-a.textosutil { color: #6bC78e; font-size:14px; text-decoration: none }
-.textosutil:visited { color: #6bC78e; font-size:14px; text-decoration: none }
-
-
-.textonormal_morado { font-size:14px; color: #330033 }
-
-.textonormal_negro { font-size:14px; color: #000000 }
-
-.textopeque { font-size:11px; color: #cecece }
-a.textopeque { color: #3b975e; font-size:11px }
-.textopeque:visited { color: #3b975e; font-size:11px }
-
-.textonormal_gris { font-size:14px; color: #dedede }
-.textopeque_gris { font-size:11px; color: #dedede }
-
-a.textonormal2 { color: #8efe8e; font-size:13px }
-
-
-.paginado { font-size: 10px;color: #cecece  }
-a.paginado { font-size: 10px;  }
-
-
-
-.piedepagina {
-	position: relative;
-	float: left;
-	clear: both;
-	width: 100%;
+ ul.ul_izquierda li:hover {
+     color: #000000;
+    /* makes the active menu item text black */
+    /* background-color: #000000;
+     */
+     opacity: 0.6;
 }
-
-
-
-
+ ul.ul_izquierda li:hover a {
+     color: #ffffff;
+}
+ ul.ul_izquierda #current a span {
+     padding-bottom: 4px;
+}
+ ul.ul_izquierda #current a span, ul.ul_izquierda #current a {
+     background-color: #000000;
+     color: #55ff55;
+}
+/* #ul_izquierda li {
+     height: 30px;
+     line-height: 2em;
+     list-style-type: none;
+     width: 170px;
+     background-color: #000000;
+     filter:alpha(opacity=80);
+     -moz-opacity:0.8;
+     -khtml-opacity: 0.8;
+     opacity: 0.8;
+}
+ */
+/* #ul_izquierda a {
+     float:left;
+     background: #000000 url('../img/bordes.png') no-repeat left top;
+     padding-right: 9px;
+     padding-left: 9px;
+     text-decoration:none;
+     color: #664a2d;
+}
+ */
+ .menu_arriba {
+     font-size: 14px;
+     font-weight: bold;
+     color: #000000 
+}
+ a.menu_arriba {
+}
+ a:hover.menu_arriba {
+     color: #111111;
+    /* makes the active menu item text black */
+     background-color: #88cc88;
+}
+ .menu_arriba_desconectar {
+     font-size: 14px;
+     font-weight: bold;
+     color: #dd3333 
+}
+ a.menu_arriba_desconectar {
+}
+ a:hover.menu_arriba_desconectar {
+     color: #ff1111;
+    /* makes the active menu item text black */
+     background-color: #eeeeee;
+}
+ .transp_left {
+     background-color: #000000;
+     opacity: 0.7;
+}
+ .titmenu_grey {
+     font-size: 16px;
+     color: #cecece 
+}
+ a.titmenu_grey {
+    /* padding: 8px 8px 8px 8px;
+     width: 100px;
+     */
+}
+ a:hover.titmenu_grey {
+}
+ .titmenu_orange {
+     font-size: 16px;
+     color: #d75b00 
+}
+ a.titmenu_orange {
+}
+ a:hover.titmenu_orange {
+}
+ .titmenu_yellow {
+     font-size: 15px;
+     color: #caf155 
+}
+ a.titmenu_yellow {
+}
+ .titmenu_black {
+     font-size: 13px;
+     font-weight: bold;
+     color: #000000 
+}
+ a.titmenu_black {
+}
+ .titmenu_u {
+     font-size: 14px;
+     text-decoration: underline;
+     color: #000000 
+}
+ a.titmenu_u {
+}
+ .titmenu_u_grey {
+     font-size: 15px;
+     text-decoration: underline;
+     color: #aeaeae 
+}
+ a.titmenu_u_grey {
+}
+ .titmenu_darkgrey {
+     font-size: 16px;
+     text-decoration: underline;
+     color: #7e7e7e;
+    /* padding: 8px 8px 8px 8px;
+     */
+}
+ a.titmenu_darkgrey {
+}
+ a:hover.titmenu_darkgrey {
+    /* color: #dddddd;
+     padding: 8px 8px 8px 8px;
+     filter:alpha(opacity=70);
+     -moz-opacity:0.7;
+     -khtml-opacity: 0.7;
+     opacity: 0.7;
+     */
+}
+ .titmenu_u_darkgrey {
+     font-size: 12px;
+     text-decoration: underline;
+     color: #6e6e6e 
+}
+ a.titmenu_u_darkgrey {
+}
+ .titmenu_u_sub {
+     font-size: 11px;
+     text-decoration: underline;
+     color: #444444 
+}
+ a.titmenu_u_sub {
+}
+ .titmenu_u_sub_grey {
+     font-size: 11px;
+     text-decoration: underline;
+     color: #6e6e6e 
+}
+ a.titmenu_u_sub_grey {
+}
+ .titulo_seccion {
+     font-size: 18px;
+     font-weight: bold;
+     text-decoration: none;
+     color: #cecece;
+}
+ .titulo_seccion_black {
+     font-size: 18px;
+     font-weight: bold;
+     text-decoration: none;
+     color: #000000;
+}
+ .enlacenormal {
+     font-size: 14px;
+     color: #ffffff;
+}
+ a.enlacenormal {
+}
+ .enlacenosub {
+     font-size: 14px;
+     color: #ffffff;
+}
+ a.enlacenosub {
+     text-decoration: none;
+}
+ .correcto {
+     color: #7bD79e;
+     font-size: 14px;
+     font-weight: bold;
+}
+ .notificar {
+     color: #990099;
+     font-size: 14px;
+     font-weight: bold;
+}
+ .correctosutil {
+     color: #6bC78e;
+     font-size: 14px;
+     font-weight: bold;
+     padding: 5px 5px 5px 5px;
+     margin-left: auto;
+     margin-right: auto;
+     background-color: #000000;
+     opacity: 0.7;
+}
+ .error {
+     color: #ff8888;
+     font-size: 14px;
+     font-weight: bold;
+     padding: 5px 5px 5px 5px;
+     margin-left: auto;
+     margin-right: auto;
+     background-color: #000000;
+     opacity: 0.8;
+}
+ .errorsutil_old {
+     color: #ffBBBB;
+     font-size: 14px;
+     font-weight: bold;
+}
+ .errorsutil {
+     color: #ffBBBB;
+     font-size: 14px;
+     font-weight: bold;
+     padding: 5px 5px 5px 5px;
+     margin-left: auto;
+     margin-right: auto;
+     background-color: #000000;
+     opacity: 0.7;
+}
+ a.errorsutil {
+     color: #ffBBBB;
+     font-size: 14px;
+}
+ .errormenu {
+     color: #BB3333;
+     font-size: 14px;
+     font-weight: bold;
+}
+ a.errormenu {
+     color: #BB3333;
+     font-size: 14px;
+}
+ .textoligero {
+     font-size: 14px;
+     color: #aeceae 
+}
+ .textoligero_small {
+     font-size: 11px;
+     color: #aeceae 
+}
+ .textonormal {
+     font-size: 14px;
+     color: #ffffff 
+}
+ a.textonormal {
+     color: #ddf7ff;
+     font-size: 14px 
+}
+ .textonormal:visited {
+     color: #9bf7ae;
+     font-size: 14px 
+}
+ .textonormallink {
+     font-size: 14px;
+     color: #2b874e;
+     font-weight: bold;
+}
+ .textosutil {
+     font-size: 14px;
+     color: #cecece;
+     text-decoration: none 
+}
+ a.textosutil {
+     color: #6bC78e;
+     font-size: 14px;
+     text-decoration: none 
+}
+ .textosutil:visited {
+     color: #6bC78e;
+     font-size: 14px;
+     text-decoration: none 
+}
+ .textonormal_morado {
+     font-size: 14px;
+     color: #330033 
+}
+ .textonormal_negro {
+     font-size: 14px;
+     color: #000000 
+}
+ .textopeque {
+     font-size: 11px;
+     color: #cecece 
+}
+ a.textopeque {
+     color: #3b975e;
+     font-size: 11px 
+}
+ .textopeque:visited {
+     color: #3b975e;
+     font-size: 11px 
+}
+ .textonormal_gris {
+     font-size: 14px;
+     color: #dedede 
+}
+ .textopeque_gris {
+     font-size: 11px;
+     color: #dedede 
+}
+ a.textonormal2 {
+     color: #8efe8e;
+     font-size: 13px 
+}
+ .paginado {
+     font-size: 10px;
+     color: #cecece 
+}
+ a.paginado {
+     font-size: 10px;
+}
+ .piedepagina {
+     position: relative;
+     float: left;
+     clear: both;
+     width: 100%;
+}
 /* Este es en el que está inscrito el dibujo de angels */
-
-.arriba {
-        position:relative;
-/*
-        background-color: #2d2d2d;
-        */  
-/*        background-color: #181818;  */
+ .arriba {
+     position: relative;
+    /* background-color: #2d2d2d;
+     */
+    /* background-color: #181818;
+     */
 }
-
-
 /* Este es la barra horizontal de autenticarte */
-
-
-.arriba_2 {
-        position:relative;
-	top: 0px;
-	left: 0px;
-        padding-top: 5px;
-        padding-bottom: 5px;
-        background-color: #cecece;
-vertical-align: text-top;
-        color: #000000;
+ .arriba_2 {
+     position: relative;
+     top: 0px;
+     left: 0px;
+     padding-top: 5px;
+     padding-bottom: 5px;
+     background-color: #cecece;
+     vertical-align: text-top;
+     color: #000000;
 }
-
-
-
-.contenedorcentral {
-        position: relative;
-        width: 1024px;
-/*
-        background-color: #2d2d2d;
-        background-color: #181818; */
-        margin-left: auto;
-        margin-right: auto;
-
-
+ .contenedorcentral {
+     position: relative;
+     width: 1024px;
+    /* background-color: #2d2d2d;
+     background-color: #181818;
+     */
+     margin-left: auto;
+     margin-right: auto;
 }
-
-.izquierda {
-        position:relative; 
-/*
-        background-color: #2d2d2d;  
-*/
-/*        background-color: #181818; */
-/*
-			  filter:alpha(opacity=70);
-	        -moz-opacity:0.7;
-	        -khtml-opacity: 0.7;
-	        opacity: 0.7;
-	        */
-	        
-	        /*
-	        background-color: #000000;
-	        */
-           padding-left: 20px;
-           padding-right: 20px;
-           float:left;
-           
+ .izquierda {
+     position: relative;
+    /* background-color: #2d2d2d;
+     */
+    /* background-color: #181818;
+     */
+    /* filter:alpha(opacity=70);
+     -moz-opacity:0.7;
+     -khtml-opacity: 0.7;
+     opacity: 0.7;
+     */
+    /* background-color: #000000;
+     */
+     padding-left: 20px;
+     padding-right: 20px;
+     float: left;
 }
-.centro {
-/*
-	        filter:alpha(opacity=70);
-	        -moz-opacity:0.7;
-	        -khtml-opacity: 0.7;
-	        opacity: 0.7;
-	       
-	        background-color: #000000;
-	        */
-           padding-top: 0px;
-           position:relative;
-           float: left;
-/*
-				margin-left: auto;
-				margin-right: auto;
-				*/           
-
-/*
-        background-color: #2d2d2d;  
-        background-color: #181818;  
-float:left;        
-        
-        */
-        
-	min-width: 750px;
+ .centro {
+    /* filter:alpha(opacity=70);
+     -moz-opacity:0.7;
+     -khtml-opacity: 0.7;
+     opacity: 0.7;
+     background-color: #000000;
+     */
+     padding-top: 0px;
+     position: relative;
+     float: left;
+    /* margin-left: auto;
+     margin-right: auto;
+     */
+    /* background-color: #2d2d2d;
+     background-color: #181818;
+     float:left;
+     */
+     min-width: 750px;
 }
-
-.lineahorizontal{
-        position:relative;
-/*        background-color: #99d8b0; */
-        background-color: #ffffff; 
-        height: 1px;
+ .lineahorizontal {
+     position: relative;
+    /* background-color: #99d8b0;
+     */
+     background-color: #ffffff;
+     height: 1px;
 }
-
-
-.movida {
-        background-color: #c0c1a7;
+ .movida {
+     background-color: #c0c1a7;
 }
-
-.mensajeforo {
-	filter:alpha(opacity=70);
-	        -moz-opacity:0.7;
-	        -khtml-opacity: 0.7;
-	        opacity: 0.7;
-	        background-color: #000000;
+ .mensajeforo {
+     opacity: 0.7;
+     background-color: #000000;
 }
-
-.mensajeforo img{
-		filter:alpha(opacity=100);
-	        -moz-opacity:1;
-	        -khtml-opacity: 1;
-	        opacity: 1;
-	}
-
-
-.mensajeforo th { background-color: #000000; font-size: 13px; }
-.mensajeforo tr { background-color: #000000; font-size: 13px; }
-
-.rebordetabla th { background-color: #ffffff; font-size: 12px; }
-.rebordetabla tr { background-color: #999999; font-size: 11px; }
-
-
-.inputstandard { background-color: #000000;
-		border: solid 1px #004400;
-		color: #ffffff;
+ .mensajeforo img {
+     opacity: 1;
 }
-
-.inputstandard_inactivo { background-color: #9ab3a3;
-		border: solid 1px #004400;
+ .mensajeforo th {
+     background-color: #000000;
+     font-size: 13px;
 }
-
-
-.inputstandard_2 { 
-
-/*
-	background-color: #2d2d2d;
-	*/
-	background-color: #111111;
-		border: solid 1px #444444;
-		color: #cae3d3;
-		
+ .mensajeforo tr {
+     background-color: #000000;
+     font-size: 13px;
 }
-
-
-
-.menu_admin { width:100%; background:#000000; float:left; margin-bottom:10px; font-weight: bold; color:#FFFFFF; }
-.menu_admin p { margin:0; margin-bottom:5px; }
-.ml10 { margin-left: 10px; }
-.menu_admin th { background-color: #000000; font-decoration: bold; color: #ffffff; font-size: 12px; }
-.menu_admin tr { background-color: #000000; font-decoration: bold; color: #ffffff; font-size: 11px; }
-
-.enlace10white { font-size: 11px; color: #ffffff }
-a.enlace10white { font-size: 11px; color: #ffffff }
-
-
-
-
-
-
-
-
-.transparente_7 {
-	filter:alpha(opacity=7);
-        -moz-opacity:0.7;
-        -khtml-opacity: 0.7;
-        opacity: 0.7;
-	padding-left: 15px;
-	padding-right: 15px;
-	background-color: #000000;
+ .rebordetabla th {
+     background-color: #ffffff;
+     font-size: 12px;
 }
-
-.transparente_6 {
-	filter:alpha(opacity=6);
-        -moz-opacity:0.6;
-        -khtml-opacity: 0.6;
-        opacity: 0.6;
-	padding-left: 15px;
-	padding-right: 15px;
-	background-color: #000000;
+ .rebordetabla tr {
+     background-color: #999999;
+     font-size: 11px;
 }
-
-.transparente_8 {
-	filter:alpha(opacity=8);
-        -moz-opacity:0.8;
-        -khtml-opacity: 0.8;
-        opacity: 0.8;
-	padding-left: 15px;
-	padding-right: 15px;
-	background-color: #000000;
+ .inputstandard {
+     background-color: #000000;
+     border: solid 1px #004400;
+     color: #ffffff;
 }
-
-.transparente_9 {
-	filter:alpha(opacity=9);
-        -moz-opacity:0.9;
-        -khtml-opacity: 0.9;
-        opacity: 0.9;
-	padding-left: 15px;
-	padding-right: 15px;
-	background-color: #000000;
+ .inputstandard_inactivo {
+     background-color: #9ab3a3;
+     border: solid 1px #004400;
 }
-
-/* Nuevo correcto:
- background-color: #002200; color: #CCFFCC;
-*/
+ .inputstandard_2 {
+    /* background-color: #2d2d2d;
+     */
+     background-color: #111111;
+     border: solid 1px #444444;
+     color: #cae3d3;
+}
+ .menu_admin {
+     width: 100%;
+     background: #000000;
+     float: left;
+     margin-bottom: 10px;
+     font-weight: bold;
+     color: #FFFFFF;
+}
+ .menu_admin p {
+     margin: 0;
+     margin-bottom: 5px;
+}
+ .ml10 {
+     margin-left: 10px;
+}
+ .menu_admin th {
+     background-color: #000000;
+     font-weight: bold;
+     color: #ffffff;
+     font-size: 12px;
+}
+ .menu_admin tr {
+     background-color: #000000;
+     font-weight: bold;
+     color: #ffffff;
+     font-size: 11px;
+}
+ .enlace10white {
+     font-size: 11px;
+     color: #ffffff 
+}
+ a.enlace10white {
+     font-size: 11px;
+     color: #ffffff 
+}
+ .transparente_7 {
+     opacity: 0.7;
+     padding-left: 15px;
+     padding-right: 15px;
+     background-color: #000000;
+}
+ .transparente_6 {
+     opacity: 0.6;
+     padding-left: 15px;
+     padding-right: 15px;
+     background-color: #000000;
+}
+ .transparente_8 {
+     opacity: 0.8;
+     padding-left: 15px;
+     padding-right: 15px;
+     background-color: #000000;
+}
+ .transparente_9 {
+     opacity: 0.9;
+     padding-left: 15px;
+     padding-right: 15px;
+     background-color: #000000;
+}
+/* Nuevo correcto: background-color: #002200;
+ color: #CCFFCC;
+ */
+ 
