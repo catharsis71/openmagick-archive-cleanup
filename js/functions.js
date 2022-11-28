@@ -18,7 +18,7 @@ function puntuaciones(catid, idelemento, media, cuantas, div, importancia) {
         } else {
           if (cuantas == '1')
           {
-            nuevo_html = nuevo_html+cuantas+ " puntuaci&oacute;n";
+            nuevo_html = nuevo_html+cuantas+ " puntuaci&#243;n";
           } else {
             nuevo_html = nuevo_html+cuantas+ " puntuaciones";
           }
