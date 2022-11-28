@@ -1,0 +1,5 @@
+# Automatically generated
+# duptype id depth size device inode priority name
+DUPTYPE_FIRST_OCCURRENCE 3989 3 41 2 27866022694696597 1 ./.git/refs/heads/master
+DUPTYPE_WITHIN_SAME_TREE -3989 4 41 2 60517119993067773 1 ./.git/refs/remotes/origin/master
+# end of file
