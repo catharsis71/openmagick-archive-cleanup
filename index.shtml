@@ -14,13 +14,28 @@
   </head>
   <body>
     New index coming soon
+    <br>NOTE: Some material archived here is still available on the <a href="https://openmagick.com/">live site</a> while some is not</a>
     <br>
-    <br><a rel="nofollow" href="index.html-lang=_catid=7.html">openmagick spanish</a>
-    <br><a rel="nofollow" href="index.html-lang=en_catid=7.html">openmagick english</a>
-    <br><a rel="nofollow" href="cracky/index.html-nboard=art.html">openmagick art board</a>
-    <br><a rel="nofollow" href="cracky/index.html-nboard=mind.html">openmagick mind board</a>
-    <br>openmagick tarot <a rel="nofollow" href="cracky/index.html-accion=major_arcana.html">1</a> <a rel="nofollow" href="cracky/index.html-accion=minor_arcana.html">2</a>
+    <br>Boards:
+    <br>
+    <br><a rel="nofollow" href="cracky/index.html-nboard=art.html">/art/</a>
+    <br><a rel="nofollow" href="cracky/index.html-nboard=mind.html">/mind/</a>
+    <br>
+    <br>Tarot:
+    <br>
+    <br>English: <a href="tarot-english-major/">Major</a> <a href="tarot-english-minor/">Minor</a>
+    <br>Spanish: <a href="tarot-spanish-major/">Major</a> <a href="tarot-spanish-minor/">Minor</a>
+    <br>Spanish (live site): <a href="https://openmagick.com/es/a/mancias/el-tarot-de-cracky-chan-arcanos-mayores">Major</a> <a href="https://openmagick.com/es/a/mancias/el-tarot-de-cracky-chan-arcanos-menores">Minor</a>
     <br> 
+    <br>Cracky-relevant articles:
+    <br>
+    <br><a href="legend-english/">The Legend of Cracky-chan</a> [<a href="https://openmagick.com/en/a/new-magick/the-legend-of-cracky-chan">on live site</a>]
+    <br><a href="legend-spanish/">La leyenda de Cracky-chan</a> [<a href="https://openmagick.com/es/a/nueva-magia/la-leyenda-de-cracky-chan">on live site</a>]
+    <br><a href="goddess-english/">The Child who wanted to be Goddess (on Cracky-chan & Lain)</a> [<a href="https://openmagick.com/en/a/new-magick/the-child-who-wanted-to-be-goddess-on-cracky-chan-lain">on live site</a>]
+    <br><a href="goddess-spanish/">La Niña que quiso ser Diosa (o Cracky-chan y Lain)</a> [<a href="https://openmagick.com/es/a/nueva-magia/la-nia-que-quiso-ser-diosa-o-cracky-chan-y-lain">on live site</a>]
+    <br><a href="loving-spanish/">Nadie deja de amar a Cracky jamás.</a> [<a href="https://openmagick.com/es/a/nueva-magia/nadie-deja-de-amar-a-cracky-jams">on live site</a>]
+    <br>La nueva Alicia (Cracky-chan) [<a href="https://openmagick.com/es/a/nueva-magia/la-nueva-alicia-cracky-chan">new article, on live site only</a>]
+    <br>
     <br>Open directory listings:
     <br>
     <br><a rel="nofollow" href="additional-images/">additional-images/</a>
@@ -30,6 +45,11 @@
     <br><a rel="nofollow" href="fckeditor/">fckeditor/</a>
     <br><a rel="nofollow" href="images/">images/</a>
     <br><a rel="nofollow" href="js/">js/</a>
+    <br>
+    <br>Front pages (with links to many more articles mostly not Cracky-relevant):
+    <br>
+    <br><a rel="nofollow" href="index.html-lang=_catid=7.html">Spanish</a>
+    <br><a rel="nofollow" href="index.html-lang=en_catid=7.html">English</a>
     <br>
     <!--#include virtual="/common/includes/footer2" -->
   </body>
