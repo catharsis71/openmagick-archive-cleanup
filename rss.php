@@ -85,7 +85,7 @@ La energía de Virgo nos infundirá curiosidad y sed de conocimiento. Momento id
                         <item>
                         <title>La Niña que quiso ser Diosa (o Cracky-chan y Lain)</title>
                         <link>http://www.openmagick.com/index.php?accion=ver&amp;catid=7&amp;idelemento=105</link>
-                        <description>Una vez vivi&#243; en Oxford una ni&ntilde;a que quiso ser Diosa. La primera vez que vio La&#237;n su hermano se lo dijo, &ldquo;&iexcl;&lt;i&gt;t&#250; eres justo como Lain!&lt;/i&gt;&rdquo;, porque ella tambi&#233;n era una chica silenciosa y a quien le gustaba permanecer recluida con su ordenador...</description>
+                        <description>Una vez vivi&#243; en Oxford una ni&#241;a que quiso ser Diosa. La primera vez que vio La&#237;n su hermano se lo dijo, &#8220;&#161;&lt;i&gt;t&#250; eres justo como Lain!&lt;/i&gt;&#8221;, porque ella tambi&#233;n era una chica silenciosa y a quien le gustaba permanecer recluida con su ordenador...</description>
                         <pubDate>2013-11-28 12:57:45</pubDate>
                         </item>104
                         <item>
