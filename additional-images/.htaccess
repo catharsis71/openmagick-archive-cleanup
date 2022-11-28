@@ -1,3 +1,4 @@
+Header onsuccess set X-Robots-Tag "noindex,nofollow"
 RedirectMatch 307 "(.*)tumblrm9jnpgajzp1r47bcz.jpg" "$1missing-thumb.webp"
 RedirectMatch 307 "(.*)tumblrmo2nyfvuct1qbcpor.jpg" "$1missing-thumb.webp"
 RedirectMatch 307 "(.*)qmwprometheasunrising.jpg" "$1missing-thumb.webp"
