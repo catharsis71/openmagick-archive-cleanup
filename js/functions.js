@@ -23,7 +23,7 @@ function puntuaciones(catid, idelemento, media, cuantas, div, importancia) {
             nuevo_html = nuevo_html+cuantas+ " puntuaciones";
           }
         }
-        nuevo_html = nuevo_html+'</span> &nbsp;';
+        nuevo_html = nuevo_html+'</span> &#160;';
 
 
  	// Ahora primero la puntuacion antigua. Cogemos media.
