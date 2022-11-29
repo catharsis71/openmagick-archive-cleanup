@@ -1,3 +1,9 @@
+@media screen and (max-width: 500px) {
+  * { margin: 0 !important; padding: 0 !important; max-width: 100% !important; min-width: 0 !important; }
+  .piedepagina, .lineahorizontal, .arriba, .arriba_2, .izquierda { display: none !important; }
+  table { width: 100% !important; }
+}
+
 body {
      color: #FFFFFF;
      background-image: url('images/fondonew.jpg');
@@ -580,4 +586,5 @@ body {
 /* Nuevo correcto: background-color: #002200;
  color: #CCFFCC;
  */
+ 
  
